@@ -1,0 +1,19 @@
+.name-logo {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+  color: var(--white-color);
+  span{
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0,0.9);
+    &:not(:first-child){
+        margin-left: -0.13em;
+    }
+  }
+
+}
+
